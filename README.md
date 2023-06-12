@@ -11,3 +11,6 @@ This repository provides the official PyTorch implementation code, data and mode
   <img src="assets/teaser(a).png" />
 </p>
 
+## MAD: Multi-pose Anomaly Detection Dataset.
+
+
