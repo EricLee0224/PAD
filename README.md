@@ -11,6 +11,56 @@ This repository provides the official PyTorch implementation code, data and mode
   <img src="assets/teaser(a).png" />
 </p>
 
+## Pose-agnostic Anomaly Detection Setting
+
+
+
 ## MAD: Multi-pose Anomaly Detection Dataset.
 
+### MAD-Simulated Set
 
+#### Data Directory
+```
+MAD-Sim
+ └ 01Gorilla
+   └ train
+     └ good
+       └ 0.png
+       └ 1.png
+   └ test  
+     └ Burrs
+     └ Missing
+       └ 0.png
+     └ Stains
+       └ 0.png
+     └ good
+       └ 0.png
+   └ ground_truth
+   
+   
+   └ transforms.json
+   
+   
+   
+     └ train
+     └ val
+     └ test
+ └ gtFine_trainvaltest
+   └ gtFine
+     └ train
+     └ val
+     └ test
+```
+
+### MAD-Real Set
+
+#### Data Directory
+```
+Fishyscapes (OoD Dataset)
+ └ leftImg8bit_trainvaltest
+   └ leftImg8bit
+     └ val
+ └ gtFine_trainvaltest
+   └ gtFine
+     └ val
+```
