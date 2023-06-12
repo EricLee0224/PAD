@@ -1,5 +1,5 @@
 # PAD (NeurlPS'23 D&B Track, Submission): Official Project Repository.   
-This repository provides the official PyTorch implementation, code and models of the following paper:
+This repository provides the official PyTorch implementation code, data and models of the following paper:
 > PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection
 > [Sanghun Jung](https://shjung13.github.io/)* (KAIST AI), [Jungsoo Lee](https://leebebeto.github.io/)* (KAIST AI), Daehoon Gwak (KAIST AI) <br>
 > [Sungha Choi](https://www.linkedin.com/in/sungha-choi-1130185a/) (LG AI Research), and [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) (KAIST AI) (*: equal contribution)<br>
