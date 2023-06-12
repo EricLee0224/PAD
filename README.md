@@ -16,9 +16,7 @@ This repository provides the official PyTorch implementation code, data and mode
 
 
 ## MAD: Multi-pose Anomaly Detection Dataset.
-
 ### MAD-Simulated Set
-
 #### Data Directory
 ```
 MAD-Sim
