@@ -27,38 +27,48 @@ MAD-Sim
        └ 1.png
    └ test  
      └ Burrs
+       └ 0.png
      └ Missing
-       └ 0.png
      └ Stains
-       └ 0.png
      └ good
-       └ 0.png
    └ ground_truth
-   
-   
+     └ Burrs
+       └ 0_mask.png
+     └ Missing
+     └ Stains
    └ transforms.json
-   
-   
-   
-     └ train
-     └ val
-     └ test
- └ gtFine_trainvaltest
-   └ gtFine
-     └ train
-     └ val
-     └ test
+ └ 02Unicorn
 ```
 
 ### MAD-Real Set
 
 #### Data Directory
 ```
-Fishyscapes (OoD Dataset)
- └ leftImg8bit_trainvaltest
-   └ leftImg8bit
-     └ val
- └ gtFine_trainvaltest
-   └ gtFine
-     └ val
+MAD-Real
+ └ 01Gorilla
+   └ train
+     └ good
+       └ 0.png
+       └ 1.png
+   └ test  
+     └ Burrs
+       └ 0.png
+     └ Missing
+     └ Stains
+     └ good
+   └ ground_truth
+     └ Burrs
+       └ 0_mask.png
+     └ Missing
+     └ Stains
+   └ transforms.json
+ └ 02Unicorn
 ```
+
+## Benchmark on MAD.
+Overview of benchmarking methods   
+
+
+
+## PAAD: Pose-agnostic Anomaly Detection Framework
+
