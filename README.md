@@ -1,4 +1,5 @@
-# PAD (NeurlPS'23 D&B Track, Submission) : Official repository for Code, Data and Models.
+# PAD (NeurlPS'23 D&B Track, Submission):   
+Official repository for Code, Data and Models.   
 This repository provides the official PyTorch implementation of the following paper:
 > PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection
 > [Sanghun Jung](https://shjung13.github.io/)* (KAIST AI), [Jungsoo Lee](https://leebebeto.github.io/)* (KAIST AI), Daehoon Gwak (KAIST AI) <br>
