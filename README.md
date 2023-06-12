@@ -72,3 +72,6 @@ Overview of benchmarking methods
 
 ## PAAD: Pose-agnostic Anomaly Detection Framework
 
+<p align="center">
+  <img src="assets/PAAD.png" />
+</p>
