@@ -95,9 +95,14 @@ MAD-Real
 
 ---
 ## 3. PAAD: Pose-agnostic Anomaly Detection Framework
+
+<p align="center">
+  <img src="assets/PAAD.png" />
+</p>
+
 ### Installation
 
-To start, I recommend to create an environment using conda:
+To start, we recommend you to create an environment using conda:
 
 ```
 conda create -n pad python=3.8
