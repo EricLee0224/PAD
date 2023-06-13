@@ -1,6 +1,6 @@
 # PAD (NeurlPS'23 D&B Track, Submission): Official Project Repository.   
 This repository provides the official PyTorch implementation code, data and models of the following paper:
-> PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection   
+> **PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection   **
 > [Qiang Zhou](https://scholar.google.com/citations?user=CMYTxUEAAAAJ&hl=en)(AIR), [Weize Li](https://ericlee0224.github.io/)(AIR), [Lihan Jiang](https://github.com/jianglh-WHU) (WHU), [Guoliang Wang](https://github.com/Cross-ZBuild) (AIR)   
 > [Guyue Zhou](https://air.tsinghua.edu.cn/en/info/1046/1196.htm)(AIR), [Shanghang Zhang](https://www.shanghangzhang.com/)(PKU), [Hao Zhao](https://sites.google.com/view/fromandto)(AIR). <br>
 
