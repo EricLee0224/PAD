@@ -149,8 +149,5 @@ The test script requires the --obj arguments
 ```
 python auroc_metric_feature.py --obj 9
 ```
-<p align="center">
-  <img src="assets/PAAD.png" />
-</p>
 
 ### 
