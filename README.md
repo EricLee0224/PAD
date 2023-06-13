@@ -11,11 +11,11 @@ This repository provides the official PyTorch implementation code, data and mode
   <img src="assets/teaser(a).png" />
 </p>
 
-## Pose-agnostic Anomaly Detection Setting
+## 0.Pose-agnostic Anomaly Detection Setting
 
 
 ---
-## MAD: Multi-pose Anomaly Detection Dataset.
+## 1.MAD: Multi-pose Anomaly Detection Dataset.
 ### MAD-Simulated Set
 #### Data Directory
 ```
@@ -65,7 +65,7 @@ MAD-Real
  └ 02Unicorn
 ```
 ---
-## Benchmark on MAD.
+## 2.Benchmark on MAD.
 ### Overview of benchmarking methods   
 ### Results
 | Category   | **Feature Embedding-based** |            |            |            |            |          | **Reconstruction-based** |            |         |            | Ours               |
@@ -94,7 +94,7 @@ MAD-Real
 | Mean       | 74\.7/78.5                  | 89\.3/59.5 | 86\.1/60.8 | 90\.8/71.3 | 89\.8/68.2 | 59\.3/-  | 58\.0/60.9               | 89\.4/58.0 | 88\.5/- | 89\.1/62.2 | **97\.8/**90.9**** |
 
 ---
-## PAAD: Pose-agnostic Anomaly Detection Framework
+## 3.PAAD: Pose-agnostic Anomaly Detection Framework
 
 <p align="center">
   <img src="assets/PAAD.png" />
