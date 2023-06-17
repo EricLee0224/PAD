@@ -12,7 +12,9 @@ This repository provides the official PyTorch implementation code, data and mode
 </p>
 
 ## 0. Pose-agnostic Anomaly Detection Setting
-
+<p align="center">
+  <img src="assets/dataset comparsion.png" />
+</p>
 
 ---
 ## 1. MAD: Multi-pose Anomaly Detection Dataset.
