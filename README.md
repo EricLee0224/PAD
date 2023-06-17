@@ -14,13 +14,18 @@ This repository provides the official PyTorch implementation code, data and mode
 ## 0. Pose-agnostic Anomaly Detection Setting
 The progress of object anomaly detection in industrial vision is significantly impeded by the scarcity of datasets containing high-quality annotated anomaly samples and comprehensive view information about normal objects. 
 
-MVTec has developed a series of widely-used photo-realistic industrial anomaly detection datasets. However, the objects provided by the AD[4] dataset are overly simplistic, as discerning anomalies can be achieved solely from a single view. Although the 3D-AD[6] dataset offers more complex objects, it lacks RGB information from a full range of views, requiring the supplementation of hard-to-capture point cloud data to detect invisible structural anomalies. The LOCO AD[3] dataset provides rich global structural and logical information but is not suitable for fine-grained anomaly detection on individual objects.
+**MVTec** has developed a series of widely-used photo-realistic industrial anomaly detection datasets：  
+However, the objects provided by the [**MVTec-AD**](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset are overly simplistic, as discerning anomalies can be achieved solely from a single view. 
 
-GDXray[23] provides grayscale maps obtained through X-ray scans for visual discrimination of structural defects but lacks normal samples and color/texture information.
+Although the **MVTec 3D-AD** dataset offers more complex objects, it lacks RGB information from a full range of views, requiring the supplementation of hard-to-capture point cloud data to detect invisible structural anomalies. 
 
-The MPDD[17] dataset offers multi-angle information about the objects but is limited in size and lacks standardized backgrounds in the photos.
+The **MVTec-LOCO AD** dataset provides rich global structural and logical information but is not suitable for fine-grained anomaly detection on individual objects.
 
-Recently, Eyecandies[7] has introduced a substantial collection of synthetic candy views captured under various lighting conditions and provides multimodal object information. However, there remains a significant gap between laboratory-synthesized data and the real or simulated data domain.
+**GDXray** provides grayscale maps obtained through X-ray scans for visual discrimination of structural defects but lacks normal samples and color/texture information.
+
+The **MPDD** dataset offers multi-angle information about the objects but is limited in size and lacks standardized backgrounds in the photos.
+
+Recently, **Eyecandies** has introduced a substantial collection of synthetic candy views captured under various lighting conditions and provides multimodal object information. However, there remains a significant gap between laboratory-synthesized data and the real or simulated data domain.
 
 To address these issues and enable exploration of the pose-agnostic AD problem, we propose our dataset. In Table 1, we present a comprehensive comparison between MAD and other representative object anomaly detection datasets.
 <p align="center">
