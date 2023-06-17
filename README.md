@@ -13,7 +13,7 @@ This repository provides the official PyTorch implementation code, data and mode
 
 ## 0. Pose-agnostic Anomaly Detection Setting
 <p align="center">
-  <img src="assets/dataset comparsion.png" />
+  <img src="assets/dataset comparsion.png" width = "65%" />
 </p>
 
 ---
