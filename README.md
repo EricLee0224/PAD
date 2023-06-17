@@ -9,6 +9,13 @@ This repository provides the official PyTorch implementation code, data and mode
 
 <p align="center">
   <img src="assets/teaser(a).png" width = "90%" />
+  <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">
+      在这里插入图片注释
+  	</div>
 </p>
 
 ## 0. Pose-agnostic Anomaly Detection Setting
