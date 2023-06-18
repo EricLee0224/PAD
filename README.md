@@ -34,10 +34,8 @@ To address these issues and enable exploration of the pose-agnostic AD problem, 
 
 ---
 ## 1. MAD: Multi-pose Anomaly Detection Dataset.
-
-
-<p align="left">
-  <img src="assets/PAD-LOGO.png" width = "80%" />
+<p align="center">
+  <img src="assets/PAD-LOGO.png" width = "85%" />
 </p>  
 
 ### 1.1 Meet ours 20 toys
