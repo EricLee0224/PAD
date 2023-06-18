@@ -1,4 +1,4 @@
-# PAD (NeurlPS'23 D&B Track, Submission): Official Project Repository.   
+# PAD (NeurlPS'23 D&B Track, Submission): Official Project Repository   
 This repository provides the official PyTorch implementation code, data and models of the following paper:  
 **PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection**<br>
 > [Qiang Zhou](https://scholar.google.com/citations?user=CMYTxUEAAAAJ&hl=en)* (AIR), [Weize Li](https://ericlee0224.github.io/)* (AIR), [Lihan Jiang](https://github.com/jianglh-WHU)  (WHU), [Guoliang Wang](https://github.com/Cross-ZBuild) (AIR)   
@@ -14,12 +14,24 @@ This repository provides the official PyTorch implementation code, data and mode
 ## 0. Pose-agnostic Anomaly Detection Setting
 The progress of object anomaly detection in industrial vision is significantly impeded by the scarcity of datasets containing high-quality annotated anomaly samples and comprehensive view information about normal objects. 
 
-**MVTec** has developed a series of widely-used photo-realistic industrial anomaly detection datasets：  
+**MVTec** has developed a series of widely-used photo-realistic industrial anomaly detection datasets：      
 However, the objects provided by the [**MVTec-AD**](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset are overly simplistic, as discerning anomalies can be achieved solely from a single view. 
+
+<p align="center">
+  <img src="assets/teaser(a).png" width = "90%" />
+</p>
 
 Although the [**MVTec 3D-AD**](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad) dataset offers more complex objects, it lacks RGB information from a full range of views, requiring the supplementation of hard-to-capture point cloud data to detect invisible structural anomalies. 
 
+<p align="center">
+  <img src="assets/teaser(a).png" width = "90%" />
+</p>
+
 The [**MVTec-LOCO AD**](https://www.mvtec.com/company/research/datasets/mvtec-loco) dataset provides rich global structural and logical information but is not suitable for fine-grained anomaly detection on individual objects.
+
+<p align="center">
+  <img src="assets/teaser(a).png" width = "90%" />
+</p>
 
 [**GDXray**](https://github.com/computervision-xray-testing/GDXray) provides grayscale maps obtained through X-ray scans for visual discrimination of structural defects but lacks normal samples and color/texture information.
 
