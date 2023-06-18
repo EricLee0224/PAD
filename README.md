@@ -90,6 +90,15 @@ MAD is offered under a [CC BY-NC-SA 4.0 license.](https://creativecommons.org/li
 ---
 ## 2. Anomaly Detection and Localization Benchmark on MAD.
 ### 2.1 Overview of benchmarking methods   
+**Feature embedding-based method:**
+*Teacher-Student Architecture* - 
+*One-Class Classification (OCC)* - 
+*Distribution-Map* - 
+*Memory Bank* - 
+**Reconstruction-based method:**
+*Autoencoder (AE)* - 
+*Generative Adversarial Networks (GANs)* - 
+*Transformer* - 
 ### 2.2 Results
 | Category   | **Feature Embedding-based** |            |            |            |            |          | **Reconstruction-based** |            |         |            | Ours               |
 | :--------: | :-------------------------: | :--------: | :--------: | :--------: | :--------: | :------: | :----------------------: | :--------: | :-----: | :--------: | :----------------: |
@@ -173,5 +182,10 @@ The test script requires the --obj arguments
 python auroc_metric_feature.py --obj 9
 ```
 ### License
-Code is open-source under an MIT License.
-### 
+Code is open-source under an MIT License.   
+
+---
+### Contact Us
+If you have any problem with our work, please feel free to contact:  
+[MAD Dataset] {bamboosdu, liweize0224}@gmail.com
+[PAAD Code] mr.jianglh@gmail.com
