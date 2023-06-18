@@ -68,8 +68,8 @@ For camera placement, the author used a circular surface centered on the vertex 
 #### Data Directory
 ```
 MAD-Sim
- └ 01Gorilla
-   └ train
+ └ 01Gorilla                    ---Object class folder.
+   └ train                      ---Training set, fit your model on this data.
      └ good
        └ 0.png
        └ 1.png
