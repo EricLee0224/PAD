@@ -90,12 +90,12 @@ MAD is offered under a [CC BY-NC-SA 4.0 license.](https://creativecommons.org/li
 ---
 ## 2. Anomaly Detection and Localization Benchmark on MAD.
 ### 2.1 Overview of benchmarking methods   
-\bullet **Feature embedding-based method:** <br>
-*Teacher-Student Architecture* - 
+**Feature embedding-based method:** <br>
+*Teacher-Student Architecture* - [STFPM] https://github.com/gdwang08/STFPM
 *One-Class Classification (OCC)* - 
 *Distribution-Map* - 
 *Memory Bank* - 
-\bullet **Reconstruction-based method:** <br>
+**Reconstruction-based method:** <br>
 *Autoencoder (AE)* - 
 *Generative Adversarial Networks (GANs)* - 
 *Transformer* - 
