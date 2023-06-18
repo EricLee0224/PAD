@@ -23,7 +23,7 @@ The [**MVTec-LOCO AD**](https://www.mvtec.com/company/research/datasets/mvtec-lo
 
 [**GDXray**](https://github.com/computervision-xray-testing/GDXray) provides grayscale maps obtained through X-ray scans for visual discrimination of structural defects but lacks normal samples and color/texture information.
 
-The **MPDD** dataset offers multi-angle information about the objects but is limited in size and lacks standardized backgrounds in the photos.
+The [**MPDD**](https://ieeexplore.ieee.org/document/9631567) dataset offers multi-angle information about the objects but is limited in size and lacks standardized backgrounds in the photos.
 
 Recently, **Eyecandies** has introduced a substantial collection of synthetic candy views captured under various lighting conditions and provides multimodal object information. However, there remains a significant gap between laboratory-synthesized data and the real or simulated data domain.
 
@@ -34,7 +34,8 @@ To address these issues and enable exploration of the pose-agnostic AD problem, 
 
 ---
 ## 1. MAD: Multi-pose Anomaly Detection Dataset.
-### MAD-Simulated Set
+### 1.1 
+### 1.2 MAD-Simulated Set
 #### Data Directory
 ```
 MAD-Sim
@@ -83,9 +84,9 @@ MAD-Real
  └ 02Unicorn
 ```
 ---
-## 2. Benchmark on MAD.
-### Overview of benchmarking methods   
-### Results
+## 2. Anomaly Detection and Localization Benchmark on MAD.
+### 2.1 Overview of benchmarking methods   
+### 2.2 Results
 | Category   | **Feature Embedding-based** |            |            |            |            |          | **Reconstruction-based** |            |         |            | Ours               |
 | :--------: | :-------------------------: | :--------: | :--------: | :--------: | :--------: | :------: | :----------------------: | :--------: | :-----: | :--------: | :----------------: |
 |            | Patchcore                   | STFPM      | Fastflow   | CFlow      | CFA        | Cutpaste | DREAM                    | FAVAE      | OCRGAN  | UniAD      |                    |
