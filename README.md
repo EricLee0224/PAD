@@ -94,7 +94,7 @@ The selection criteria for benchmark methods include representativeness, superio
 **Pseudo-anomaly methods:** <br>
 [Cutpaste] https://github.com/LilitYolyan/CutPaste  
 [DRAEM]https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models  
-### 2.2 Results (Pixel/Image)
+### 2.2 Results (Pixel/Image-AUROC)
 | Category   | **Feature Embedding-based** |            |            |            |            |          | **Reconstruction-based** |            |         |            | Ours               |
 | :--------: | :-------------------------: | :--------: | :--------: | :--------: | :--------: | :------: | :----------------------: | :--------: | :-----: | :--------: | :----------------: |
 |            | Patchcore                   | STFPM      | Fastflow   | CFlow      | CFA        | Cutpaste | DREAM                    | FAVAE      | OCRGAN  | UniAD      | PAAD                   |
