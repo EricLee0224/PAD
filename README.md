@@ -124,7 +124,7 @@ The selection criteria for benchmark methods include representativeness, superio
 ## 3. PAAD: Pose-agnostic Anomaly Detection Framework
 
 <p align="center">
-  <img src="assets/PAAD.png" />
+  <img src="assets/PAAD.png" width="85%" />
 </p>
 
 ### Installation
