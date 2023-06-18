@@ -58,6 +58,12 @@ Each category comprises a set of defect-free training images (*w* pose informati
 </p>
 
 ### 1.2 MAD-Simulated Dataset
+The author obtained a collection of open-source LEGO models by visiting the LEGO community. These models were constructed using parts from the Ldraw library, which is a basic LEGO parts library, and they showcased various small animal figures. In order to meet the requirements of the experiment, the author made precise adjustments and optimizations to the models' details, such as edges and colors.
+
+To generate the necessary data, the author utilized Blender software and imported the required Ldraw parts. They then adjusted the angles and lighting of the models to achieve the best visual effects. To ensure a more comprehensive 3D dataset, the author employed a 360-degree surround camera technique to render the models from multiple angles.
+
+For camera placement, the author used a circular surface centered on the vertex of the Z-axis as a reference. They positioned a camera every 15 degrees along this circular surface and added cameras at equal intervals along the Z-axis. This setup enabled multiple cameras to render simultaneously, resulting in a richer and more comprehensive dataset with multi-angle model data.
+
 MAD-Sim Dataset (972M): [Download from here](https://drive.google.com/file/d/1sa7tl84K0lNhJoa8WCH3yiVEhkWP5sLp/view?usp=sharing).
 #### Data Directory
 ```
