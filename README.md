@@ -96,10 +96,10 @@ MAD is offered under a [CC BY-NC-SA 4.0 license.](https://creativecommons.org/li
 *Distribution-Map* - [Fastflow][CFlow] https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models  
 *Memory Bank* - [Patchcore] https://github.com/amazon-science/patchcore-inspection  
 **Reconstruction-based method:** <br>
-*Autoencoder (AE)* - [DRAEM]https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models [FAVAE] https://github.com/xiahaifeng1995/FAVAE-anomaly-detection-localization-master  
+*Autoencoder (AE)* - [DRAEM]https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models  [FAVAE] https://github.com/xiahaifeng1995/FAVAE-anomaly-detection-localization-master  
 *Generative Adversarial Networks (GANs)* - [OCR-GAN] https://github.com/zhangzjn/OCR-GAN  
 *Transformer* - [UniAD] https://github.com/zhiyuanyou/UniAD  
-### 2.2 Results
+### 2.2 Results (Pixel/Image)
 | Category   | **Feature Embedding-based** |            |            |            |            |          | **Reconstruction-based** |            |         |            | Ours               |
 | :--------: | :-------------------------: | :--------: | :--------: | :--------: | :--------: | :------: | :----------------------: | :--------: | :-----: | :--------: | :----------------: |
 |            | Patchcore                   | STFPM      | Fastflow   | CFlow      | CFA        | Cutpaste | DREAM                    | FAVAE      | OCRGAN  | UniAD      |                    |
