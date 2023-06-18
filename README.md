@@ -90,12 +90,12 @@ MAD is offered under a [CC BY-NC-SA 4.0 license.](https://creativecommons.org/li
 ---
 ## 2. Anomaly Detection and Localization Benchmark on MAD.
 ### 2.1 Overview of benchmarking methods   
-**Feature embedding-based method:**
+**Feature embedding-based method:** <br>
 *Teacher-Student Architecture* - 
 *One-Class Classification (OCC)* - 
 *Distribution-Map* - 
 *Memory Bank* - 
-**Reconstruction-based method:**
+**Reconstruction-based method:** <br>
 *Autoencoder (AE)* - 
 *Generative Adversarial Networks (GANs)* - 
 *Transformer* - 
