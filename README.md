@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/PAD-LOGO.png" width = "90%" />
+</p>
 # PAD (NeurlPS'23 D&B Track, Submission): Official Project Repository.   
 This repository provides the official PyTorch implementation code, data and models of the following paper:  
 **PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection**<br>
