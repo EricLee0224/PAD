@@ -18,19 +18,19 @@ The progress of object anomaly detection in industrial vision is significantly i
 However, the objects provided by the [**MVTec-AD**](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset are overly simplistic, as discerning anomalies can be achieved solely from a single view. 
 
 <p align="center">
-  <img src="assets/AD.png" width = "80%" />
+  <img src="assets/AD.png" width = "50%" />
 </p>
 
 Although the [**MVTec 3D-AD**](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad) dataset offers more complex objects, it lacks RGB information from a full range of views, requiring the supplementation of hard-to-capture point cloud data to detect invisible structural anomalies. 
 
 <p align="center">
-  <img src="assets/3dAD.png" width = "80%" />
+  <img src="assets/3dAD.png" width = "50%" />
 </p>
 
 The [**MVTec-LOCO AD**](https://www.mvtec.com/company/research/datasets/mvtec-loco) dataset provides rich global structural and logical information but is not suitable for fine-grained anomaly detection on individual objects.
 
 <p align="center">
-  <img src="assets/locoAD.png" width = "80%" />
+  <img src="assets/locoAD.png" width = "50%" />
 </p>
 
 [**GDXray**](https://github.com/computervision-xray-testing/GDXray) provides grayscale maps obtained through X-ray scans for visual discrimination of structural defects but lacks normal samples and color/texture information.
