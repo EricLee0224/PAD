@@ -44,7 +44,7 @@ To address these issues and enable exploration of the pose-agnostic AD problem, 
 </p>
 
 ### 1.2 MAD-Simulated Set
-
+MAD-Sim Dataset (1.53G): Download from here.
 #### Data Directory
 ```
 MAD-Sim
@@ -181,4 +181,4 @@ Code is open-source under an MIT License.
 ### Contact Us
 If you have any problem with our work, please feel free to contact:    
 [MAD Dataset] bamboosdu@gmail.com or liweize0224@gmail.com  
-[PAAD Code] mr.jianglh@gmail.com
+[PAAD Code] mr.lhjiang@gmail.com
