@@ -27,7 +27,7 @@ The [**MPDD**](https://ieeexplore.ieee.org/document/9631567) dataset offers mult
 
 Recently, **Eyecandies** has introduced a substantial collection of synthetic candy views captured under various lighting conditions and provides multimodal object information. However, there remains a significant gap between laboratory-synthesized data and the real or simulated data domain.
 
-To address these issues and enable exploration of the pose-agnostic AD problem, we propose our dataset. In Table 1, we present a comprehensive comparison between MAD and other representative object anomaly detection datasets.
+To address these issues and enable exploration of the pose-agnostic AD problem, we propose our dataset. In Table shown as below, we present a comprehensive comparison between MAD and other representative object anomaly detection datasets.
 <p align="center">
   <img src="assets/dataset comparsion.png" width = "75%" />
 </p>
