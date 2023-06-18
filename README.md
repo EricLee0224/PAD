@@ -91,14 +91,14 @@ MAD is offered under a [CC BY-NC-SA 4.0 license.](https://creativecommons.org/li
 ## 2. Anomaly Detection and Localization Benchmark on MAD.
 ### 2.1 Overview of benchmarking methods   
 **Feature embedding-based method:** <br>
-*Teacher-Student Architecture* - [STFPM] https://github.com/gdwang08/STFPM
-*One-Class Classification (OCC)* - 
-*Distribution-Map* - 
-*Memory Bank* - 
+*Teacher-Student Architecture* - [STFPM] https://github.com/gdwang08/STFPM  
+*One-Class Classification (OCC)* - [Cutpaste] https://github.com/LilitYolyan/CutPaste  
+*Distribution-Map* - [Fastflow][CFlow] https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models  
+*Memory Bank* - [Patchcore] https://github.com/amazon-science/patchcore-inspection  
 **Reconstruction-based method:** <br>
-*Autoencoder (AE)* - 
-*Generative Adversarial Networks (GANs)* - 
-*Transformer* - 
+*Autoencoder (AE)* - [DRAEM]https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models [FAVAE] https://github.com/xiahaifeng1995/FAVAE-anomaly-detection-localization-master  
+*Generative Adversarial Networks (GANs)* - [OCR-GAN] https://github.com/zhangzjn/OCR-GAN  
+*Transformer* - [UniAD] https://github.com/zhiyuanyou/UniAD  
 ### 2.2 Results
 | Category   | **Feature Embedding-based** |            |            |            |            |          | **Reconstruction-based** |            |         |            | Ours               |
 | :--------: | :-------------------------: | :--------: | :--------: | :--------: | :--------: | :------: | :----------------------: | :--------: | :-----: | :--------: | :----------------: |
