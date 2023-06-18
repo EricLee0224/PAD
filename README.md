@@ -172,5 +172,6 @@ The test script requires the --obj arguments
 ```
 python auroc_metric_feature.py --obj 9
 ```
-
+### License
+Code is open-source under an MIT License.
 ### 
