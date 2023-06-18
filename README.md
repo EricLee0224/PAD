@@ -47,6 +47,7 @@ To address these issues and enable exploration of the pose-agnostic AD problem, 
 
 ---
 ## 1. MAD: Multi-pose Anomaly Detection Dataset.
+Each category comprises a set of defect-free training images (*w* pose information) and a test set of images (*w/o* pose information) with various kinds of defects as well as images without defects.
 <p align="center">
   <img src="assets/PAD-LOGO.png" width = "85%" />
 </p>  
