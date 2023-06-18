@@ -160,11 +160,11 @@ pip install -r requirements.txt
 
 ### Train
 
-First, you should download our MLAD-Sim dataset, just from [here](https://drive.google.com/file/d/1S1rYgPyxFjCuLf1Z-JLyfS2lka4_pykf/view) and put the downloaded folder in the "data/MLAD-Sim" folder
+First, you should download our MAD-Sim dataset, just from [here](https://drive.google.com/file/d/1S1rYgPyxFjCuLf1Z-JLyfS2lka4_pykf/view) and put the downloaded folder in the "data/MAD-Sim" folder
 
 ```
 ├── data 
-│   ├── MLAD-Sim  
+│   ├── MAD-Sim  
 ```
 
 To run the algorithm on *9(Gorilla)* object
@@ -177,7 +177,7 @@ All other parameters such as *batch size*, *class_name*, *dataset_type* you can 
 
 All NeRF models were trained using this code https://github.com/yenchenlin/nerf-pytorch/
 
-You can use our ckpts on MLAD-Sim in [ckpts](https://github.com/jianglh-WHU/PAAD/tree/main/ckpts/LEGO-3D)
+You can use our ckpts on MAD-Sim in [ckpts](https://github.com/jianglh-WHU/PAAD/tree/main/ckpts/LEGO-3D)
 
 And iNeRF using the code https://github.com/salykovaa/inerf
 
