@@ -181,6 +181,6 @@ Code is open-source under an MIT License.
 
 ---
 ### Contact Us
-If you have any problem with our work, please feel free to contact:  
-[MAD Dataset] {bamboosdu, liweize0224}@gmail.com
+If you have any problem with our work, please feel free to contact:    
+[MAD Dataset] bamboosdu@gmail.com or liweize0224@gmail.com  
 [PAAD Code] mr.jianglh@gmail.com
