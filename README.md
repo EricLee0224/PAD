@@ -34,7 +34,7 @@ To address these issues and enable exploration of the pose-agnostic AD problem, 
 
 ---
 ## 1. MAD: Multi-pose Anomaly Detection Dataset.
-### 1.1 Meet 20 complex-shaped LEGO toys
+### 1.1 Meet ours 20 toys
 <p align="center">
   <img src="assets/allclass.png" width = "65%" />
 </p>
