@@ -70,23 +70,23 @@ For camera placement, the author used a circular surface centered on the vertex 
 MAD-Sim
  └ 01Gorilla                    ---Object class folder.
    └ train                      ---Training set, fit your model on this data.
-     └ good
+     └ good                     ---a set of defect-free training images (*w* full pose information).
        └ 0.png
        └ 1.png
-   └ test  
-     └ Burrs
+   └ test                       ---a test set of images (*w/o* pose information).
+     └ Burrs                    ---with various kinds of defects, such as Burrs.
        └ 0.png
-     └ Missing
-     └ Stains
-     └ good
-   └ ground_truth
+     └ Missing                  ---with various kinds of defects, such as Missing.
+     └ Stains                   ---with various kinds of defects, such as Stains.
+     └ good                     ---images without defects.
+   └ ground_truth               ---GT segmentation mask for various kinds of defects.
      └ Burrs
        └ 0_mask.png
      └ Missing
      └ Stains
-   └ transforms.json
-   └ license
-   └ readme
+   └ transforms.json           ---Provides information related to the camera angle and image transformation matrix.
+   └ license                   ---Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+   └ readme                    ---more information about the work and authorship.
  └ 02Unicorn
     ...
 ```
