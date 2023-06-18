@@ -2,8 +2,8 @@
 This repository provides the official PyTorch implementation code, data and models of the following paper:  
 **PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection**<br>
 
-<p align="center">
-  <img src="assets/PAD-LOGO.png" width = "90%" />
+<p align="left">
+  <img src="assets/PAD-LOGO.png" width = "80%" />
 </p>  
 
 > [Qiang Zhou](https://scholar.google.com/citations?user=CMYTxUEAAAAJ&hl=en)* (AIR), [Weize Li](https://ericlee0224.github.io/)* (AIR), [Lihan Jiang](https://github.com/jianglh-WHU)  (WHU), [Guoliang Wang](https://github.com/Cross-ZBuild) (AIR)   
