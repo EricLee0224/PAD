@@ -57,7 +57,7 @@ Each category comprises a set of defect-free training images (*w* pose informati
   <img src="assets/allclass.png" width = "65%" />
 </p>
 
-### 1.2 MAD-Simulated Set
+### 1.2 MAD-Simulated Dataset
 MAD-Sim Dataset (972M): [Download from here](https://drive.google.com/file/d/1sa7tl84K0lNhJoa8WCH3yiVEhkWP5sLp/view?usp=sharing).
 #### Data Directory
 ```
@@ -82,7 +82,9 @@ MAD-Sim
  └ 02Unicorn
 ```
 
-### MAD-Real Set
+### 1.3 MAD-Real Dataset
+While the content of the MAD-Sim dataset is sufficient to explore object anomaly detection and localization tasks in the pseudo-agnostic setting, we would like to further assist in verifying whether the models trained using the MAD-Sim dataset are generalizable in the real world by releasing additional MAD-Real datasets.   
+Since the Real dataset contains entity information, we decided to open a challenge and welcome submissions of models trained using the MAD-Sim dataset for validation once the paper is accepted. Note that regardless of the results, we will fully release this part of the dataset by October 2023.  
 
 ### License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />MAD Dataset is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.  
