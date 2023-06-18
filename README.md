@@ -29,7 +29,7 @@ Recently, **Eyecandies** has introduced a substantial collection of synthetic ca
 
 To address these issues and enable exploration of the pose-agnostic AD problem, we propose our dataset. In Table 1, we present a comprehensive comparison between MAD and other representative object anomaly detection datasets.
 <p align="center">
-  <img src="assets/dataset comparsion.png" width = "65%" />
+  <img src="assets/dataset comparsion.png" width = "75%" />
 </p>
 
 ---
