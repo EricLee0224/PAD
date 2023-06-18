@@ -44,7 +44,7 @@ To address these issues and enable exploration of the pose-agnostic AD problem, 
 </p>
 
 ### 1.2 MAD-Simulated Set
-MAD-Sim Dataset (1.53G): Download from here.
+MAD-Sim Dataset (972M): Download from here.
 #### Data Directory
 ```
 MAD-Sim
