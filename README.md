@@ -85,7 +85,10 @@ MAD-Sim
      └ Missing
      └ Stains
    └ transforms.json
+   └ license
+   └ readme
  └ 02Unicorn
+    ...
 ```
 
 ### 1.3 MAD-Real Dataset
