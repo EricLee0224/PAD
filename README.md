@@ -211,7 +211,7 @@ You are free to use, copy, and redistribute the material for non-commercial purp
 
 - Implementation code of PAAD.
 
-Our code for PAAD is open-source under an [MIT License].   
+Our code for PAAD is open-source under an [MIT License](https://github.com/EricLee0224/PAD/blob/main/LICENSE).   
 
 ---
 ### Contact Us
