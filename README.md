@@ -169,7 +169,7 @@ Here, TPR and FPR represent the pixel/image-level true positive rate and false p
 | Mean       | 74\.7/78.5                  | 89\.3/59.5 | 86\.1/60.8 | 90\.8/71.3 | 89\.8/68.2 | 59\.3/-  | 58\.0/60.9               | 89\.4/58.0 | 88\.5/- | 89\.1/62.2 | **97\.8/**90.9**** |
 
 ### 2.5 Objects Attributes-Performance Correlation
-
+Note that the X-axis indicates object attributes and the Y-axis indicates anomaly detection (localization) performance.  
 <p align="center">
   <img src="assets/color+shape.png" width = "85%" />
 </p>  
