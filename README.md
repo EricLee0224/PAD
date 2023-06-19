@@ -109,7 +109,8 @@ The selection criteria for benchmark methods include representativeness, superio
 - *Teacher-Student Architecture* - [STFPM] https://github.com/gdwang08/STFPM  
 - *One-Class Classification (OCC)* - [Cutpaste] https://github.com/LilitYolyan/CutPaste  
 - *Distribution-Map* - [Fastflow][CFlow] https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models  
-- *Memory Bank* - [Patchcore] https://github.com/amazon-science/patchcore-inspection  
+- *Memory Bank* - [Patchcore] https://github.com/amazon-science/patchcore-inspection
+
 **Reconstruction-based methods:** <br>
 - *Autoencoder (AE)* - [DRAEM]https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models  [FAVAE] https://github.com/xiahaifeng1995/FAVAE-anomaly-detection-localization-master  
 - *Generative Adversarial Networks (GANs)* - [OCR-GAN] https://github.com/zhangzjn/OCR-GAN  
