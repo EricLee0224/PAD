@@ -11,6 +11,8 @@ This repository provides the official PyTorch implementation code, data and mode
   <img src="assets/teaser(a).png" width = "90%" />
 </p>
 
+
+---
 ## 0. Pose-agnostic Anomaly Detection Setting
 The progress of object anomaly detection in industrial vision is significantly impeded by the scarcity of datasets containing high-quality annotated anomaly samples and comprehensive view information about normal objects. **MVTec** has developed a series of widely-used photo-realistic industrial anomaly detection dataset (**Note that all screenshots from MVTec.**):   
 
