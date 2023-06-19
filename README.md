@@ -21,7 +21,7 @@ The main contributions are summarized as follows:
 The progress of object anomaly detection in industrial vision is significantly impeded by the scarcity of datasets containing high-quality annotated anomaly samples and comprehensive view information about normal objects. 
 
 <p align="center">
-  <img src="assets/PAD-explain.png" width = "80%" />
+  <img src="assets/PAD-explain.png" width = "55%" />
 </p>
 
 **MVTec** has developed a series of widely-used photo-realistic industrial anomaly detection dataset (**Note that all screenshots from MVTec.**):   
