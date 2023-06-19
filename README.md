@@ -206,7 +206,7 @@ Once the paper is accepted, the code for the PAAD implementation will be open-so
 MAD Dataset is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 You are free to use, copy, and redistribute the material for non-commercial purposes provided you give appropriate credit, provide a link to the license, and indicate if changes were made. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. You may not use the material for commercial purposes.  
 
-- Implementation code of PAAD.
+- Implementation code for PAAD.
 
 Our code for PAAD is open-source under an [MIT License](https://github.com/EricLee0224/PAD/blob/main/LICENSE).   
 
