@@ -104,7 +104,7 @@ You are free to use, copy, and redistribute the material for non-commercial purp
 ---
 ## 2. Pose-agnostic Anomaly Detection and Localization Benchmark on MAD.
 ### 2.1 Overview of benchmarking methods   
-The selection criteria for benchmark methods include representativeness, superior performance, and availability of source code. To comprehensively investigate the performance of anomaly detection algorithms in the pose-agnostic anomaly detection setting, we selected 1-2 representative methods from each of the eight anomaly detection paradigms:  
+The selection criteria for benchmark methods include representativeness, superior performance, and availability of source code. To comprehensively investigate the performance of anomaly detection algorithms in the pose-agnostic anomaly detection setting, we selected 1-2 representative methods from each of the 8 anomaly detection paradigms:  
 **Feature embedding-based methods:** <br>
 - *Teacher-Student Architecture* - [STFPM] https://github.com/gdwang08/STFPM  
 - *One-Class Classification (OCC)* - [Cutpaste] https://github.com/LilitYolyan/CutPaste  
