@@ -117,8 +117,16 @@ The selection criteria for benchmark methods include representativeness, superio
 
 **Pseudo-anomaly methods:** <br>
 - [Cutpaste] https://github.com/LilitYolyan/CutPaste  
-  [DRAEM]https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models  
-### 2.2 Results (Pixel/Image-AUROC)
+  [DRAEM]https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models
+
+### 2.2 Evaluation Metric
+Following previous work, we specifically choose the Area Under the Receiver Operating Caracteristic Curve (AUROC) as the primary metric for evaluating the performance of anomaly segmentation at the pixel-level and anomaly classification at the image-level. While there exist various evaluation metrics for these tasks, AUROC stands out as the most widely used and suitable metric for conducting comprehensive benchmarking. The AUROC score can be calculated as follows:
+\begin{equation}
+AUROC = \int(TPR \cdot FPR) dFPR
+\end{equation}
+Here, TPR and FPR represent the pixel/image-level true positive rate and false positive rate, respectively.
+  
+### 2.3 Results (Pixel/Image-AUROC)
 | Category   | **Feature Embedding-based** |            |            |            |            |          | **Reconstruction-based** |            |         |            | Ours               |
 | :--------: | :-------------------------: | :--------: | :--------: | :--------: | :--------: | :------: | :----------------------: | :--------: | :-----: | :--------: | :----------------: |
 |            | Patchcore                   | STFPM      | Fastflow   | CFlow      | CFA        | Cutpaste | DREAM                    | FAVAE      | OCRGAN  | UniAD      | PAAD                   |
