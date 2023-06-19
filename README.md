@@ -192,7 +192,7 @@ Note that the X-axis indicates object attributes and the Y-axis indicates anomal
 
 ---
 ## 3. PAAD: Pose-agnostic Anomaly Detection Framework
-
+Once the paper is accepted, the code for the PAAD implementation will be open-sourced.
 <p align="center">
   <img src="assets/PAAD.png" width="85%" />
 </p>
