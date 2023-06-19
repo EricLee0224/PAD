@@ -49,6 +49,8 @@ To address these issues and enable exploration of the pose-agnostic AD problem, 
   <img src="assets/PAD-LOGO.png" width = "85%" />
 </p>  
 
+We introduce a dataset, the Multi-pose Anomaly Detection (MAD) dataset, which represents the first attempt to evaluate the performance of pose-agnostic anomaly detection. The MAD dataset containing 4,000+ highresolution multi-pose views RGB images with camera/pose information of 20 shape-complexed LEGO animal toys for training, as well as 7,000+ simulation and real-world collected RGB images (without camera/pose information)  with pixel-precise ground truth annotations for three types of anomalies in test sets. Note that MAD has been further divided into MAD-Sim and MAD-Real for simulation-to-reality studies to bridge the gap between academic research and the demands of industrial manufacturing. 
+
 ### 1.1 Meet ours 20 toys
 <p align="center">
   <img src="assets/allclass.png" width = "65%" />
