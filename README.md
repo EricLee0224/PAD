@@ -11,7 +11,11 @@ This repository provides the official PyTorch implementation code, data and mode
   <img src="assets/teaser(a).png" width = "90%" />
 </p>
 
+The main contributions are summarized as follows: 
 
+- We introduce a dataset, the **M**ulti-pose **A**nomaly **D**etection (MAD) dataset, which represents the first attempt to evaluate the performance of pose-agnostic anomaly detection. The MAD dataset containing 4,000+ highresolution multi-pose views RGB images with camera/pose information of 20 shape-complexed LEGO animal toys for training, as well as 7,000+ simulation and real-world collected RGB images (without camera/pose information)  with pixel-precise ground truth annotations for three types of anomalies in test sets. Note that MAD has been further divided into MAD-Sim and MAD-Real for simulation-to-reality studies to bridge the gap between academic research and the demands of industrial manufacturing.  
+- We conduct a thorough training and evaluation of 9 different anomaly detection paradigms, along with 10 baseline methods, on the MAD dataset. To ensure consistency and fairness, we adopt a standardized and well-defined evaluation protocol. Notably, our study pioneers the assessment and investigation of the correlation between quantitative properties of objects, such as shape complexity and color contrast, and the performance of anomaly detection methods.  
+- We proposed the Pose-agnostic Anomaly Detection (PAAD) framework, specifically designed to efficiently detect anomalies across various poses using a single model. Our comprehensive experiments conducted on the MAD-Sim and MAD-Real datasets demonstrate the effectiveness of the PAAD framework in tackling pose-agnostic anomaly detection. These results indicate the promising potential of our method in addressing real-world industrial challenges related to anomaly detection.  
 ---
 ## 0. Pose-agnostic Anomaly Detection Setting
 The progress of object anomaly detection in industrial vision is significantly impeded by the scarcity of datasets containing high-quality annotated anomaly samples and comprehensive view information about normal objects. **MVTec** has developed a series of widely-used photo-realistic industrial anomaly detection dataset (**Note that all screenshots from MVTec.**):   
