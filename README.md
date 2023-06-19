@@ -114,7 +114,8 @@ The selection criteria for benchmark methods include representativeness, superio
 **Reconstruction-based methods:** <br>
 - *Autoencoder (AE)* - [DRAEM]https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models  [FAVAE] https://github.com/xiahaifeng1995/FAVAE-anomaly-detection-localization-master  
 - *Generative Adversarial Networks (GANs)* - [OCR-GAN] https://github.com/zhangzjn/OCR-GAN  
-- *Transformer* - [UniAD] https://github.com/zhiyuanyou/UniAD  
+- *Transformer* - [UniAD] https://github.com/zhiyuanyou/UniAD
+
 **Pseudo-anomaly methods:** <br>
 - [Cutpaste] https://github.com/LilitYolyan/CutPaste  
   [DRAEM]https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models  
