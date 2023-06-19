@@ -84,9 +84,9 @@ MAD-Sim
        └ 0_mask.png
      └ Missing
      └ Stains
-   └ transforms.json            ---Provides information related to the camera angle and image transformation matrix.
+   └ transforms.json            ---Provides information related to the camera angle and image transformation matrix for training.
    └ license                    ---Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-   └ readme                     ---more information about the work and authorship.
+   └ readme                     ---More information about this dataset and authorship.
  └ 02Unicorn
     ...
 ```
