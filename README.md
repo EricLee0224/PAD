@@ -121,8 +121,9 @@ Additionally, we explore a novel aspect in anomaly detection tasks, which is the
 In MAD dataset, each lego toy set corresponds to a unique three-dimensional shape. Different surface areas of these three-dimensional shapes have varying impacts on anomaly detection. To better understand the influence of three-dimensional shape surface area on anomaly detection, we calculate the shape complexity for each lego toy set, which refers to the number of triangular faces of the set itself. By measuring the complexity of three-dimensional shapes, we can effectively assess the robustness of each anomaly detection algorithm across different levels of shape complexity. For a fair comparison, we mapped the number of triangular pieces for different classes of objects to 0-100.
 
 | Category          | 1      | 2      | 3      | 4      | 5      | 6      | 7      | 8      | 9      | 10     |
+| :---------------- | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | Shape\_complexity | 65\.79 | 57\.9  | 24\.53 | 100    | 81\.58 | 11\.25 | 46\.23 | 73\.97 | 55\.97 | 23\.92 |
-| Category          | 11     | 12     | 13     | 14     | 15     | 16     | 17     | 18     | 19     | 20     |
+| **Category**          | **11**     | **12**     | **13**     | **14**     | **15**     | **16**     | **17**     | **18**     | **19**     | **20**     |
 | Shape\_complexity | 42\.43 | 43\.77 | 29\.49 | 28\.18 | 56\.1  | 0      | 49\.76 | 15\.53 | 62\.18 | 79\.03 |
 
 - **Color Contrast**  
