@@ -92,6 +92,11 @@ MAD-Sim
 While the content of the **MAD-Sim dataset is sufficient to explore object anomaly detection and localization tasks under the pose-agnostic setting**, we would like to further assist in verifying whether the models trained using the MAD-Sim dataset are generalizable in the real world by releasing additional MAD-Real datasets.   
 Since the Real dataset contains entity information, we decided to open a challenge and welcome submissions of models trained using the MAD-Sim dataset for validation once the paper is accepted. Note that regardless of the results, we will fully release this part of the dataset by October 2023.  
 
+### License  
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />MAD Dataset is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.  
+You are free to use, copy, and redistribute the material for non-commercial purposes provided you give appropriate credit, provide a link to the license, and indicate if changes were made. If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. You may not use the material for commercial purposes.  
+
 ---
 ## 2. Pose-agnostic Anomaly Detection and Localization Benchmark on MAD.
 ### 2.1 Overview of benchmarking methods   
