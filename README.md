@@ -36,7 +36,7 @@ The [**MVTec-LOCO AD**](https://www.mvtec.com/company/research/datasets/mvtec-lo
 
 The [**MPDD**](https://ieeexplore.ieee.org/document/9631567) dataset offers multi-angle information about the objects but is **limited in dataset sample size and lacks standardized backgrounds** in the photos.
 
-Recently, **Eyecandies** has introduced a substantial collection of synthetic candy views captured under various lighting conditions and provides multimodal object information. However, there **remains a significant gap between laboratory-synthesized data and the real or simulated data domain**.
+Recently, [**Eyecandies**](https://eyecan-ai.github.io/eyecandies/) has introduced a substantial collection of synthetic candy views captured under various lighting conditions and provides multimodal object information. However, there **remains a significant gap between laboratory-synthesized data and the real or simulated data domain**.
 
 To address these issues and enable exploration of the pose-agnostic AD problem, we propose our dataset. In Table shown as below, we present a comprehensive comparison between MAD and other representative object anomaly detection datasets.
 <p align="center">
