@@ -162,8 +162,8 @@ conda activate pad
 Clone the repository and install dependencies:
 
 ```
-git clone https://github.com/jianglh-WHU/PAAD.git
-cd inerf
+git clone [https://github.com/jianglh-WHU/PAAD.git](https://github.com/EricLee0224/PAD.git)
+cd PAAD/inerf
 pip install -r requirements.txt
 ```
 
@@ -207,3 +207,4 @@ Code is open-source under an MIT License.
 If you have any problem with our work, please feel free to contact:    
 [MAD Dataset] bamboosdu@gmail.com or liweize0224@gmail.com  
 [PAAD Code] mr.lhjiang@gmail.com
+ 
