@@ -18,8 +18,13 @@ The main contributions are summarized as follows:
 - We proposed the Pose-agnostic Anomaly Detection (PAAD) framework, specifically designed to efficiently detect anomalies across various poses using a single model. Our comprehensive experiments conducted on the MAD-Sim and MAD-Real datasets demonstrate the effectiveness of the PAAD framework in tackling pose-agnostic anomaly detection. These results indicate the promising potential of our method in addressing real-world industrial challenges related to anomaly detection.  
 ---
 ## 0. Pose-agnostic Anomaly Detection Setting
-The progress of object anomaly detection in industrial vision is significantly impeded by the scarcity of datasets containing high-quality annotated anomaly samples and comprehensive view information about normal objects. **MVTec** has developed a series of widely-used photo-realistic industrial anomaly detection dataset (**Note that all screenshots from MVTec.**):   
+The progress of object anomaly detection in industrial vision is significantly impeded by the scarcity of datasets containing high-quality annotated anomaly samples and comprehensive view information about normal objects. 
 
+<p align="center">
+  <img src="assets/teaser(a).png" width = "90%" />
+</p>
+
+**MVTec** has developed a series of widely-used photo-realistic industrial anomaly detection dataset (**Note that all screenshots from MVTec.**):   
 However, the objects provided by the [**MVTec-AD**](https://www.mvtec.com/company/research/datasets/mvtec-ad) dataset are **overly simplistic**, as discerning anomalies can be achieved solely from a single view. 
 
 <p align="center">
