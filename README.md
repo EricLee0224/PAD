@@ -54,7 +54,7 @@ To address these issues and enable exploration of the pose-agnostic AD problem, 
 </p>
 
 ---
-## 1. MAD: Multi-pose Anomaly Detection Dataset.
+## 1. MAD: Multi-pose Anomaly Detection Dataset
 
 <p align="center">
   <img src="assets/PAD-LOGO.png" width = "85%" />
@@ -106,7 +106,7 @@ While the content of the **MAD-Sim dataset is sufficient to explore object anoma
 Since the Real dataset contains entity information, we decided to open a challenge and welcome submissions of models trained using the MAD-Sim dataset for validation once the paper is accepted. Note that regardless of the results, we will fully release this part of the dataset by October 2023.  
 
 ---
-## 2. Pose-agnostic Anomaly Detection and Localization Benchmark on MAD.
+## 2. Pose-agnostic Anomaly Detection and Localization Benchmark on MAD
 ### 2.1 Overview of benchmarking methods   
 The selection criteria for benchmark methods include representativeness, superior performance, and availability of source code. To comprehensively investigate the performance of anomaly detection algorithms in the pose-agnostic anomaly detection setting, we selected 1-2 representative methods from each of the 8 anomaly detection paradigms:  
 **Feature embedding-based methods:** <br>
