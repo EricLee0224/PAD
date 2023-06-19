@@ -123,8 +123,6 @@ In MAD dataset, each lego toy set corresponds to a unique three-dimensional shap
 - **Color Contrast**  
 To calculate object's color contrast: 1)Load the input image. 2)Convert the image from the original color space to the Lab color space, which separates it into three components: L (lightness), a (green-red), and b (blue-yellow). 3)Extract the a and b channels from the Lab image, representing the variation between green and red (a channel) and between blue and yellow (b channel). 4)Calculate the standard deviation of the values in the a channel, indicating the spread or variability of color along the green-red axis. 5)Calculate the standard deviation of the values in the b channel, indicating the spread or variability of color along the blue-yellow axis. 6)Combine the standard deviations of the a and b channels to compute the color contrast. One common method is to use the Euclidean distance formula, squaring the two standard deviations, summing them, and taking the square root. 7)The resulting value represents the color contrast of the image, with higher values indicating greater variation in colors and a more distinct color difference.  
 
-
-
 ### 2.3 Evaluation Metric
 Following previous work, we specifically choose the Area Under the Receiver Operating Caracteristic Curve (AUROC) as the primary metric for evaluating the performance of anomaly segmentation at the pixel-level and anomaly classification at the image-level. While there exist various evaluation metrics for these tasks, AUROC stands out as the most widely used and suitable metric for conducting comprehensive benchmarking. The AUROC score can be calculated as follows:   
 
@@ -132,7 +130,7 @@ $$ AUROC = \int  (TPR \cdot FPR) dFPR $$
 
 Here, TPR and FPR represent the pixel/image-level true positive rate and false positive rate, respectively.
   
-### 2.3 Anomaly Detection and Localization Results (Pixel/Image-AUROC)
+### 2.4 Anomaly Detection and Localization Results (Pixel/Image-AUROC)
 | Category   | **Feature Embedding-based** |            |            |            |            |          | **Reconstruction-based** |            |         |            | Ours               |
 | :--------: | :-------------------------: | :--------: | :--------: | :--------: | :--------: | :------: | :----------------------: | :--------: | :-----: | :--------: | :----------------: |
 |            | Patchcore                   | STFPM      | Fastflow   | CFlow      | CFA        | Cutpaste | DREAM                    | FAVAE      | OCRGAN  | UniAD      | PAAD                   |
@@ -157,6 +155,8 @@ Here, TPR and FPR represent the pixel/image-level true positive rate and false p
 | Bear       | 79\.5/84.2                  | 90\.6/60.7 | 85\.0/72.9 | 92\.2/81.4 | 90\.7/78.7 | 68\.8/-  | 39\.2/76.1               | 90\.1/52.8 | 83\.1/- | 90\.9/65.1 | **99\.3/**98.8**** |
 | Puppy      | 73\.3/65.6                  | 84\.9/56.7 | 80\.3/59.5 | 89\.6/71.4 | 82\.3/53.7 | 43\.2/-  | 45\.8/57.4               | 85\.6/43.5 | 78\.9/- | 87\.1/55.6 | **98\.8/**93.5**** |
 | Mean       | 74\.7/78.5                  | 89\.3/59.5 | 86\.1/60.8 | 90\.8/71.3 | 89\.8/68.2 | 59\.3/-  | 58\.0/60.9               | 89\.4/58.0 | 88\.5/- | 89\.1/62.2 | **97\.8/**90.9**** |
+
+### 2.5 Objects Attributes-Performance Correlation
 
 ---
 ## 3. PAAD: Pose-agnostic Anomaly Detection Framework
