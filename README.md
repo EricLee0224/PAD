@@ -170,6 +170,11 @@ Here, TPR and FPR represent the pixel/image-level true positive rate and false p
 
 ### 2.5 Objects Attributes-Performance Correlation
 
+<p align="center">
+  <img src="assets/color+shape.png" width = "85%" />
+</p>  
+
+
 ---
 ## 3. PAAD: Pose-agnostic Anomaly Detection Framework
 
