@@ -79,9 +79,8 @@ When creating data with defects, our work referred to several common types of de
 **Missing** parts refer to situations where LEGO bricks or components are not included in the final packaged set as intended.   
 
 <p align="center">
-  <img src="assets/defect_sample.png" width = "80%" />
+  <img src="assets/defect_sample.png" width = "60%" />
 </p>
-
 * Please see more details in our supplementary materials.
 
 ### 1.3 MAD-Simulated Dataset
