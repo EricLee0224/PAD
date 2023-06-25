@@ -72,7 +72,19 @@ We introduce a dataset, the **M**ulti-pose **A**nomaly **D**etection (MAD) datas
   <img src="assets/allclass.png" width = "65%" />
 </p>
 
-### 1.2 MAD-Simulated Dataset
+### 1.2 Defect types and samples
+When creating data with defects, our work referred to several common types of defects on the LEGO production line, and selected 'Stains', 'Burrs', and 'Missing' as the main defect categories for the dataset.  
+**Burrs**  are small, unwanted projections or rough edges that can form on the surface of LEGO bricks or components.   
+**Stains** refer to discoloration or marks that appear on the surface of LEGO bricks or components.   
+**Missing** parts refer to situations where LEGO bricks or components are not included in the final packaged set as intended.   
+
+<p align="center">
+  <img src="assets/defect_sample.png" width = "80%" />
+</p>
+
+* Please see more details in our supplementary materials.
+
+### 1.3 MAD-Simulated Dataset
 We obtained a collection of open-source LEGO models by visiting the LEGO community. These models were constructed using parts from the Ldraw library, which is a basic LEGO parts library, and they showcased various small animal figures. In order to meet the requirements of the experiment, the author made precise adjustments and optimizations to the models' details, such as edges and colors.
 
 To generate the necessary data, we utilized Blender software and imported the required Ldraw parts. They then adjusted the angles and lighting of the models to achieve the best visual effects. To ensure a more comprehensive 3D dataset, the author employed a 360-degree surround camera technique to render the models from multiple angles.
@@ -106,7 +118,7 @@ MAD-Sim
     ...
 ```
 
-### 1.3 MAD-Real Dataset
+### 1.4 MAD-Real Dataset
 While the content of the **MAD-Sim dataset is sufficient to explore object anomaly detection and localization tasks under the pose-agnostic setting**, we would like to further assist in verifying whether the models trained using the MAD-Sim dataset are generalizable in the real world by releasing additional MAD-Real datasets.   
 Since the Real dataset contains entity information, we decided to open a challenge and welcome submissions of models trained using the MAD-Sim dataset for validation once the paper is accepted. Note that regardless of the results, we will fully release this part of the dataset by October 2023.  
 
