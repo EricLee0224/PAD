@@ -90,7 +90,7 @@ To generate the necessary data, we utilized Blender software and imported the re
 
 For camera placement, the author used a circular surface centered on the vertex of the Z-axis as a reference. They positioned a camera every 15 degrees along this circular surface and added cameras at equal intervals along the Z-axis. This setup enabled multiple cameras to render simultaneously, resulting in a richer and more comprehensive dataset with multi-angle model data.
 
-**MAD-Sim Dataset (972M)**: [Download from here](https://drive.google.com/file/d/1sa7tl84K0lNhJoa8WCH3yiVEhkWP5sLp/view?usp=sharing).
+**[Google Drive]MAD-Sim Dataset (972M)**: [Download from here](https://drive.google.com/file/d/1sa7tl84K0lNhJoa8WCH3yiVEhkWP5sLp/view?usp=sharing).
 #### Data Directory
 ```
 MAD-Sim
