@@ -164,7 +164,7 @@ To calculate object's color contrast: 1)Load the input image. 2)Convert the imag
 ### 2.3 Evaluation Metric
 Following previous work, we specifically choose the Area Under the Receiver Operating Caracteristic Curve (AUROC) as the primary metric for evaluating the performance of anomaly segmentation at the pixel-level and anomaly classification at the image-level. While there exist various evaluation metrics for these tasks, AUROC stands out as the most widely used and suitable metric for conducting comprehensive benchmarking. The AUROC score can be calculated as follows:   
 
-$$ AUROC = \int  (TPR \cdot FPR) dFPR $$
+$$ AUROC = \int  (TPR) dFPR $$
 
 Here, TPR and FPR represent the pixel/image-level true positive rate and false positive rate, respectively.
   
