@@ -18,7 +18,7 @@ The main contributions are summarized as follows:
 - We conducted a comprehensive benchmarking of the PAD setting, utilizing the MAD dataset. Across 8 distinct paradigms, we meticulously selected 10 state-of-the-art methods for evaluation. In a pioneering effort, we delving into the previously unexplored realm of correlation between object attributes and anomaly detection performance.   
 - We proposed ***OmniposeAD***, utilizing NeRF to encode anomaly-free object attributes from diverse viewpoints/poses and comparing reconstructed normal reference with query image for pose-agnostic anomaly detection and localization. It outperforms previous methods quantitatively and qualitatively on the MAD benchmark, which indicates the promising potential on PAD setting.    
 ---
-## 0. Pose-agnostic Anomaly Detection Setting
+## 1. Pose-agnostic Anomaly Detection Setting
 The progress of object anomaly detection in industrial vision is significantly impeded by the scarcity of datasets containing high-quality annotated anomaly samples and comprehensive view information about normal objects. 
 
 <p align="center">
@@ -60,7 +60,7 @@ To address these issues and enable exploration of the pose-agnostic AD problem, 
 </p>
 
 ---
-## 1. MAD: Multi-pose Anomaly Detection Dataset
+## 2. MAD: Multi-pose Anomaly Detection Dataset
 
 <p align="center">
   <img src="assets/PAD-LOGO.png" width = "85%" />
@@ -68,12 +68,12 @@ To address these issues and enable exploration of the pose-agnostic AD problem, 
 
 We introduce a dataset, the **M**ulti-pose **A**nomaly **D**etection (MAD) dataset, which represents the first attempt to evaluate the performance of pose-agnostic anomaly detection. The MAD dataset containing 4,000+ highresolution multi-pose views RGB images with camera/pose information of 20 shape-complexed LEGO animal toys for training, as well as 7,000+ simulation and real-world collected RGB images (without camera/pose information)  with pixel-precise ground truth annotations for three types of anomalies in test sets. Note that MAD has been further divided into MAD-Sim and MAD-Real for simulation-to-reality studies to bridge the gap between academic research and the demands of industrial manufacturing. 
 
-### 1.1 Meet ours 20 toys
+### 2.1 Meet ours 20 toys
 <p align="center">
   <img src="assets/allclass.png" width = "65%" />
 </p>
 
-### 1.2 Defect types and samples
+### 2.2 Defect types and samples
 When creating data with defects, our work referred to several common types of defects on the LEGO production line, and selected 'Stains', 'Burrs', and 'Missing' as the main defect categories for the dataset.  
 **Burrs**  are small, unwanted projections or rough edges that can form on the surface of LEGO bricks or components.   
 **Stains** refer to discoloration or marks that appear on the surface of LEGO bricks or components.   
@@ -84,7 +84,7 @@ When creating data with defects, our work referred to several common types of de
 </p>
 * Please see more details in our supplementary materials.
 
-### 1.3 MAD-Simulated Dataset
+### 2.3 MAD-Simulated Dataset
 We obtained a collection of open-source LEGO models by visiting the LEGO community. These models were constructed using parts from the Ldraw library, which is a basic LEGO parts library, and they showcased various small animal figures. In order to meet the requirements of the experiment, the author made precise adjustments and optimizations to the models' details, such as edges and colors.
 
 To generate the necessary data, we utilized Blender software and imported the required Ldraw parts. They then adjusted the angles and lighting of the models to achieve the best visual effects. To ensure a more comprehensive 3D dataset, the author employed a 360-degree surround camera technique to render the models from multiple angles.
@@ -118,13 +118,13 @@ MAD-Sim
     ...
 ```
 
-### 1.4 MAD-Real Dataset
+### 2.4 MAD-Real Dataset
 While the content of the **MAD-Sim dataset is sufficient to explore object anomaly detection and localization tasks under the pose-agnostic setting**, we would like to further assist in verifying whether the models trained using the MAD-Sim dataset are generalizable in the real world by releasing additional MAD-Real datasets.   
 Since the Real dataset contains entity information, we decided to open a challenge and welcome submissions of models trained using the MAD-Sim dataset for validation once the paper is accepted. Note that regardless of the results, we will fully release this part of the dataset by October 2023.  
 
 ---
-## 2. Pose-agnostic Anomaly Detection and Localization Benchmark on MAD
-### 2.1 Overview of benchmarking methods   
+## 3. Pose-agnostic Anomaly Detection and Localization Benchmark on MAD
+### 3.1 Overview of benchmarking methods   
 The selection criteria for benchmark methods include representativeness, superior performance, and availability of source code. To comprehensively investigate the performance of anomaly detection algorithms in the pose-agnostic anomaly detection setting, we selected 1-2 representative methods from each of the 8 anomaly detection paradigms:  
 **Feature embedding-based methods:** <br>
 - *Teacher-Student Architecture* - [[**STFPM**]](https://github.com/gdwang08/STFPM)   
@@ -141,7 +141,7 @@ The selection criteria for benchmark methods include representativeness, superio
 - [[**Cutpaste**]](https://github.com/LilitYolyan/CutPaste)    
   [[**DRAEM**]](https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models/draem)    
 
-### 2.2 Objects Attributes Quantification
+### 3.2 Objects Attributes Quantification
 Additionally, we explore a novel aspect in anomaly detection tasks, which is the **relationship between object attributes and anomaly detection performance**. This investigation leads to unexpected insights and alternative ways to evaluate different approaches. Specifically, we measure the complexity of object shapes and the contrast of object colors, and then analyze the correlation between these properties and detection performance using various methods. The findings reveal that most methods exhibit a positive correlation between performance and color contrast, while a negative correlation is observed with shape complexity, which aligns with our intuition. Notably, Cutpaste, a representative approach that generates anomalies and reconstructs them through a self-supervised task, stands out as being sensitive to color contrast but surprisingly tolerant towards shape complexity. Furthermore, the results demonstrate the robustness of our proposed PAAD to changes in object attributes.  
 
 - **Shape Complexity**  
@@ -162,14 +162,14 @@ To calculate object's color contrast: 1)Load the input image. 2)Convert the imag
 | **Category**        | **11**     | **12**     | **13**     | **14**     | **15**     | **16**     | **17**     | **18**     | **19**     | **20**     |
 | Color\_Contrast | 52\.34 | 86\.32 | 66\.15 | 55\.10 | 32\.85 | 61\.28 | 36\.18 | 58\.10 | 37\.75 | 35\.98 |
 
-### 2.3 Evaluation Metric
+### 3.3 Evaluation Metric
 Following previous work, we specifically choose the Area Under the Receiver Operating Caracteristic Curve (AUROC) as the primary metric for evaluating the performance of anomaly segmentation at the pixel-level and anomaly classification at the image-level. While there exist various evaluation metrics for these tasks, AUROC stands out as the most widely used and suitable metric for conducting comprehensive benchmarking. The AUROC score can be calculated as follows:   
 
 $$ AUROC = \int  (TPR) dFPR $$
 
 Here, TPR and FPR represent the pixel/image-level true positive rate and false positive rate, respectively.
   
-### 2.4 Anomaly Detection and Localization Results (Pixel/Image-AUROC)
+### 3.4 Anomaly Detection and Localization Results (Pixel/Image-AUROC)
 | Category   | **Feature Embedding-based** |            |            |            |            |          | **Reconstruction-based** |            |         |            | Ours               |
 | :--------: | :-------------------------: | :--------: | :--------: | :--------: | :--------: | :------: | :----------------------: | :--------: | :-----: | :--------: | :----------------: |
 |            | Patchcore                   | STFPM      | Fastflow   | CFlow      | CFA        | Cutpaste | DREAM                    | FAVAE      | OCRGAN  | UniAD      | PAAD                   |
@@ -195,7 +195,7 @@ Here, TPR and FPR represent the pixel/image-level true positive rate and false p
 | Puppy      | 73\.3/65.6                  | 84\.9/56.7 | 80\.3/59.5 | 89\.6/71.4 | 82\.3/53.7 | 43\.2/-  | 45\.8/57.4               | 85\.6/43.5 | 78\.9/- | 87\.1/55.6 | **98\.8/**93.5**** |
 | Mean       | 74\.7/78.5                  | 89\.3/59.5 | 86\.1/60.8 | 90\.8/71.3 | 89\.8/68.2 | 59\.3/-  | 58\.0/60.9               | 89\.4/58.0 | 88\.5/- | 89\.1/62.2 | **97\.8/**90.9**** |
 
-### 2.5 Objects Attributes-Performance Correlation
+### 3.5 Objects Attributes-Performance Correlation
 Note that the X-axis indicates object attributes and the Y-axis indicates anomaly detection (localization) performance.  
 <p align="center">
   <img src="assets/color+shape.png" width = "85%" />
@@ -203,7 +203,7 @@ Note that the X-axis indicates object attributes and the Y-axis indicates anomal
 
 
 ---
-## 3. PAAD: Pose-agnostic Anomaly Detection Framework
+## 4. OmniposeAD
 Once the paper is accepted, the code for the PAAD implementation will be open-sourced.
 <p align="center">
   <img src="assets/PAAD.png" width="85%" />
