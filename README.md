@@ -20,6 +20,7 @@ The main contributions are summarized as follows:
 ---
 ## 1. Pose-agnostic Anomaly Detection Setting
 The progress of object anomaly detection in industrial vision is significantly impeded by the scarcity of datasets containing high-quality annotated anomaly samples and comprehensive view information about normal objects. Our Pose-agnostic Anomaly Detection (PAD) setting introduced for object anomaly detection and localization tasks shown as below and it can be formally stated as follows:   
+
 Given a set of training examples \mathcal{T}=\left\{t_{i}\right\}_{i=1}^{N}, in which \left\{t_{1}, t_{2}, \cdots, t_{N}\right\} are the anomaly-free samples from object's multi pose view and each $t$ consists of RGB image $I_{rgb}$ with pose information $I_{pose}$. In addition, $\mathcal{T}_{n}$ belongs to a certain object $o_{j}$, $o_{j}\in\mathcal{O}$, where $\mathcal{O}$ denotes the set of all objects categories. During testing, given a query (normal or abnormal) sample $\mathcal{Q}$ from object $o_{j}$ without pose information, the pre-trained AD model should discriminate whether or not the query sample is anomalous and localize the pixel-wise anomaly region if the anomaly is detected.
 
 <p align="center">
