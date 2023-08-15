@@ -58,7 +58,7 @@ Recently, [**Eyecandies**](https://eyecan-ai.github.io/eyecandies/) dataset has 
 
 To address these issues and enable exploration of the pose-agnostic AD problem, we propose our dataset. As the table shown below, we present a comprehensive comparison between MAD and other representative object anomaly detection datasets.
 <p align="center">
-  <img src="assets/dataset comparsion.png" width = "75%" />
+  <img src="assets/dataset_compare.png" width = "75%" />
 </p>
 
 ---
