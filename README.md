@@ -171,7 +171,7 @@ $$ AUROC = \int  (TPR) dFPR $$
 
 Here, TPR and FPR represent the pixel/image-level true positive rate and false positive rate, respectively.
   
-### 3.4 Anomaly Detection and Localization Results (Pixel/Image-AUROC)
+### 3.4 [Quantatively Results]Anomaly Detection and Localization Results (Pixel/Image-AUROC)
 | Category   | **Feature Embedding-based** |            |            |            |            |          | **Reconstruction-based** |            |         |            | Ours               |
 | :--------: | :-------------------------: | :--------: | :--------: | :--------: | :--------: | :------: | :----------------------: | :--------: | :-----: | :--------: | :----------------: |
 |            | Patchcore                   | STFPM      | Fastflow   | CFlow      | CFA        | Cutpaste | DREAM                    | FAVAE      | OCRGAN  | UniAD      | PAAD                   |
@@ -197,7 +197,12 @@ Here, TPR and FPR represent the pixel/image-level true positive rate and false p
 | Puppy      | 73\.3/65.6                  | 84\.9/56.7 | 80\.3/59.5 | 89\.6/71.4 | 82\.3/53.7 | 43\.2/-  | 45\.8/57.4               | 85\.6/43.5 | 78\.9/- | 87\.1/55.6 | **98\.8/**93.5**** |
 | Mean       | 74\.7/78.5                  | 89\.3/59.5 | 86\.1/60.8 | 90\.8/71.3 | 89\.8/68.2 | 59\.3/-  | 58\.0/60.9               | 89\.4/58.0 | 88\.5/- | 89\.1/62.2 | **97\.8/**90.9**** |
 
-### 3.5 Objects Attributes-Performance Correlation
+### 3.5 [Qualitatively Results]Anomaly Localization Results
+<p align="center">
+  <img src="assets/qualitatively_results11.png" width = "60%" />
+</p>
+
+### 3.6 Objects Attributes-Performance Correlation
 Note that the X-axis indicates object attributes and the Y-axis indicates anomaly detection (localization) performance.  
 <p align="center">
   <img src="assets/color+shape.png" width = "85%" />
