@@ -208,15 +208,11 @@ Note that the X-axis indicates object attributes and the Y-axis indicates anomal
   <img src="assets/color+shape.png" width = "85%" />
 </p>  
 
-### 3.6 In-the-wild AD results.
+### 3.6 In-the-wild AD (OmniposeAD) results.
 
 <p align="center">
   <img src="assets/inthewild.png" width = "85%" />
 </p>  
-
-
-
-
 
 ---
 ## 4. OmniposeAD
