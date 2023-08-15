@@ -199,7 +199,7 @@ Here, TPR and FPR represent the pixel/image-level true positive rate and false p
 
 ### 3.5 [Qualitatively Results]Anomaly Localization Results
 <p align="center">
-  <img src="assets/qualitatively_results11.png" width = "60%" />
+  <img src="assets/qualitatively_results11.png" width = "80%" />
 </p>
 
 ### 3.6 Objects Attributes-Performance Correlation
