@@ -208,14 +208,21 @@ Note that the X-axis indicates object attributes and the Y-axis indicates anomal
   <img src="assets/color+shape.png" width = "85%" />
 </p>  
 
+### 3.6 In-the-wild AD results.
+
+<p align="center">
+  <img src="assets/inthewild.png" width = "85%" />
+</p>  
+
+
+
+
 
 ---
 ## 4. OmniposeAD
 The OmniposeAD consists of an anomaly-free neural radiance field, coarse-to-fine pose estimation module, and anomaly detection and localization module. The input is an query image w/o pose. Initially, the image undergoes the coarse-to-fine pose estimation module to obtain the accurate camera view pose. Subsequently, the estimated pose is utilized in the neural radiance field for rendering the normal reference. Finally, the reference is compared to the input query image to extract the anomaly information.  
 
 *Once the paper is accepted, the code for the OmniposeAD implementation will be open-sourced.*  
-
-
 <p align="center">
   <img src="assets/PAAD.png" width="85%" />
 </p>
