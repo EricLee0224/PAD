@@ -241,4 +241,8 @@ Our code for OmniposeAD is open-source under an [**MIT License**](https://github
 If you have any problem with our work, please feel free to contact the contributors:    
 [MAD Dataset] bamboosdu@gmail.com, liweize0224@gmail.com and wanggl199705@gmail.com   
 [PAAD Code] mr.lhjiang@gmail.com
+
+---
+### Citation
+TODO.
  
