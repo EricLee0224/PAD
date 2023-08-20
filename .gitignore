@@ -1,0 +1,15 @@
+output/*
+data/*
+ckpts/*
+
+__pycache__/*
+datasets/__pycache__/*
+loftr/__pycache__/*
+loftr/backbone/__pycache__/*
+loftr/utils/__pycache__/*
+loftr/loftr_module/__pycache__/*
+
+retrieval/__pycache__/*
+retrieval/model/*
+
+.vscode

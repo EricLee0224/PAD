@@ -1,0 +1,24 @@
+model_name = 02Unicorn
+output_dir = ./output
+dataset_type = blender
+data_dir = ./data/LEGO-3D
+ckpt_dir = ./ckpts
+ckpt_name = 02Unicorn
+
+use_viewdirs = True
+white_bkgd = True
+N_samples = 64
+N_importance = 64
+half_res = True
+
+obs_img_num = 1
+dil_iter = 3
+kernel_size = 5
+batch_size = 3072
+lrate = 0.01
+sampling_strategy = interest_regions
+
+noise = None
+sigma = 0.01
+amount = 0.8
+delta_brightness = 0.
