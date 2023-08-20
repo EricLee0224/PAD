@@ -12,11 +12,11 @@ import matplotlib as plt
 
 import datasets.LEGO_3D as lego
 from datasets.LEGO_3D import LEGODataset
-from inerf_helpers import camera_transf
+from util.inerf_helpers import camera_transf
 from sklearn.metrics import roc_auc_score
-from nerf_helpers import load_nerf
-from render_helpers import get_rays, render, to8b
-from utils import (config_parser, find_POI,
+from util.nerf_helpers import load_nerf
+from util.render_helpers import get_rays, render, to8b
+from util.utils import (config_parser, find_POI,
                    img2mse, load_blender_ad,pose_retrieval_loftr)
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

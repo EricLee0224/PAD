@@ -9,11 +9,11 @@ from skimage import morphology
 from scipy.ndimage import gaussian_filter
 import imageio
 from sklearn import datasets
-from metric import *
+from util.metric import *
 import numpy as np
 import matplotlib.pyplot as plt
-from model_helper import ModelHelper
-from utils import *
+from util.model_helper import ModelHelper
+from util.utils import *
 from efficientnet_pytorch import EfficientNet
 from easydict import EasyDict
 import yaml

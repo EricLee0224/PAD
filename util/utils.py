@@ -10,7 +10,7 @@ import lpips
 import numpy as np
 import torch
 from skimage.metrics import structural_similarity
-from model_helper import ModelHelper
+from util.model_helper import ModelHelper
 from retrieval.loftr import LoFTR, default_cfg
 from retrieval.retrieval import *
 from easydict import EasyDict

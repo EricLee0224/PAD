@@ -16,7 +16,7 @@ from torch.utils.data import dataloader, Dataset
 from PIL import Image
 from easydict import EasyDict
 import yaml
-from model_helper import ModelHelper
+from util.model_helper import ModelHelper
 
 
 def get_file_list(file_path_list, sort=True):
