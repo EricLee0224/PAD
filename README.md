@@ -218,10 +218,50 @@ Note that the X-axis indicates object attributes and the Y-axis indicates anomal
 ## 4. OmniposeAD
 The OmniposeAD consists of an anomaly-free neural radiance field, coarse-to-fine pose estimation module, and anomaly detection and localization module. The input is an query image w/o pose. Initially, the image undergoes the coarse-to-fine pose estimation module to obtain the accurate camera view pose. Subsequently, the estimated pose is utilized in the neural radiance field for rendering the normal reference. Finally, the reference is compared to the input query image to extract the anomaly information.  
 
-*Once the paper is accepted, the code for the OmniposeAD implementation will be open-sourced.*  
+
 <p align="center">
   <img src="assets/PAAD.png" width="85%" />
 </p>
+
+### 4.1 Train
+
+First, you should download our MAD dataset and put the downloaded folder in the "data/LEGO-3D" folder
+
+```
+├── data 
+│   ├── LEGO-3D
+```
+
+To run the algorithm on *01Gorilla* object:
+
+```python
+python anomaly_nerf_lego.py --config configs/LEGO-3D/01Gorilla.txt --class_name 01Gorilla
+```
+
+You have to download the [ckpts](https://drive.google.com/drive/folders/1gl_h0r0ljb8QWDzpobPe39OBqp6SXfdr?usp=drive_link) and [retrieval model](https://drive.google.com/drive/folders/1ZBhj7CNb93Dhm6WBZO61iNDkhJppXlgc?usp=drive_link) and put them in corresponding file location.
+
+```
+├── ckpts
+│   ├── LEGO-3D
+├── retrieval
+│   ├── model
+```
+
+All other parameters such as *batch size*, *class_name*, *dataset_type* you can adjust in corresponding config [files](https://github.com/EricLee0224/PAD/tree/main/configs/LEGO-3D).
+
+All NeRF models were trained using this code https://github.com/yenchenlin/nerf-pytorch/.
+
+And iNeRF using the code https://github.com/salykovaa/inerf
+
+### 4.2 Test
+
+The test script requires the --obj arguments
+
+```python
+python auroc_test.py --obj 01Gorilla
+```
+
+
 
 ---
 
