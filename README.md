@@ -228,8 +228,8 @@ The OmniposeAD consists of an anomaly-free neural radiance field, coarse-to-fine
 First, you should download our MAD dataset and put the downloaded folder in the "data/LEGO-3D" folder
 
 ```
-├── data 
-│   ├── LEGO-3D
+data 
+ └ LEGO-3D
 ```
 
 To run the algorithm on *01Gorilla* object:
@@ -241,10 +241,10 @@ python anomaly_nerf_lego.py --config configs/LEGO-3D/01Gorilla.txt --class_name 
 You have to download the [ckpts](https://drive.google.com/drive/folders/1gl_h0r0ljb8QWDzpobPe39OBqp6SXfdr?usp=drive_link) and [retrieval model](https://drive.google.com/drive/folders/1ZBhj7CNb93Dhm6WBZO61iNDkhJppXlgc?usp=drive_link) and put them in corresponding file location.
 
 ```
-├── ckpts
-│   ├── LEGO-3D
-├── retrieval
-│   ├── model
+ckpts
+ └ LEGO-3D
+retrieval
+ └ model
 ```
 
 All other parameters such as *batch size*, *class_name*, *dataset_type* you can adjust in corresponding config [files](https://github.com/EricLee0224/PAD/tree/main/configs/LEGO-3D).
