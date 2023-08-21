@@ -4,10 +4,11 @@ ckpts/*
 
 __pycache__/*
 datasets/__pycache__/*
-loftr/__pycache__/*
-loftr/backbone/__pycache__/*
-loftr/utils/__pycache__/*
-loftr/loftr_module/__pycache__/*
+retrieval/loftr/__pycache__/*
+retrieval/loftr/backbone/__pycache__/*
+retrieval/loftr/utils/__pycache__/*
+retrieval/loftr/loftr_module/__pycache__/*
+util/__pycache__/*
 
 retrieval/__pycache__/*
 retrieval/model/*
