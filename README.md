@@ -21,7 +21,7 @@ The main contributions are summarized as follows:
 ## 1. Pose-agnostic Anomaly Detection Setting
 The progress of object anomaly detection in industrial vision is significantly impeded by the scarcity of datasets containing high-quality annotated anomaly samples and comprehensive view information about normal objects. Our Pose-agnostic Anomaly Detection (PAD) setting introduced for object anomaly detection and localization tasks shown as below and it can be formally stated as follows:   
 
-Given a set of training examples \mathcal{T}=\left\{t_{i}\right\}_{i=1}^{N}, in which \left\{t_{1}, t_{2}, \cdots, t_{N}\right\} are the anomaly-free samples from object's multi pose view and each $t$ consists of RGB image $I_{rgb}$ with pose information $I_{pose}$. In addition, $\mathcal{T}_{n}$ belongs to a certain object $o_{j}$, $o_{j}\in\mathcal{O}$, where $\mathcal{O}$ denotes the set of all objects categories. During testing, given a query (normal or abnormal) sample $\mathcal{Q}$ from object $o_{j}$ without pose information, the pre-trained AD model should discriminate whether or not the query sample is anomalous and localize the pixel-wise anomaly region if the anomaly is detected.
+Given a set of training examples $\mathcal{T}=\left\{t_{i}\right\}_{i=1}^{N}$, in which $\left\{t_{1}, t_{2}, \cdots, t_{N}\right\}$ are the anomaly-free samples from object's multi pose view and each $t$ consists of RGB image $I_{rgb}$ with pose information $I_{pose}$. In addition, $\mathcal{T}_{n}$ belongs to a certain object $o_{j}$, $o_{j}\in\mathcal{O}$, where $\mathcal{O}$ denotes the set of all objects categories. During testing, given a query (normal or abnormal) sample $\mathcal{Q}$ from object $o_{j}$ without pose information, the pre-trained AD model should discriminate whether or not the query sample is anomalous and localize the pixel-wise anomaly region if the anomaly is detected.
 
 <p align="center">
   <img src="assets/PAD_teaser.png" width = "70%" />
@@ -223,7 +223,45 @@ The OmniposeAD consists of an anomaly-free neural radiance field, coarse-to-fine
   <img src="assets/PAAD.png" width="85%" />
 </p>
 
-### 4.1 Train
+### 4.1 Installation
+
+To start, I recommend to create an environment using conda:
+
+```
+conda create -n pad python=3.8
+conda activate pad
+```
+
+Clone the repository and install dependencies:
+
+```
+git clone https://github.com/EricLee0224/PAD.git
+cd PAD
+pip install -r requirements.txt
+```
+
+And then download the [ckpts](https://drive.google.com/file/d/1MVokoxPQ9CVo0rSxvdRvTj0bqSp-kXze/view?usp=drive_link) and [retrieval model](https://drive.google.com/file/d/16FOwaqQE0NGY-1EpfoNlU0cGlHjATV0V/view?usp=drive_link) and put them in corresponding file location, also you can run these code:
+
+```
+gdown https://drive.google.com/uc\?id\=1MVokoxPQ9CVo0rSxvdRvTj0bqSp-kXze
+unzip ckpts.zip
+
+cd retrieval
+gdown https://drive.google.com/uc\?id\=16FOwaqQE0NGY-1EpfoNlU0cGlHjATV0V
+unzip model.zip
+```
+
+the file format is like this:
+
+```
+ckpts
+ └ LEGO-3D
+  └ ...
+retrieval
+ └ model
+```
+
+### 4.2 Train
 
 First, you should download our MAD dataset and put the downloaded folder in the "data/LEGO-3D" folder
 
@@ -238,22 +276,13 @@ To run the algorithm on *01Gorilla* object:
 python anomaly_nerf_lego.py --config configs/LEGO-3D/01Gorilla.txt --class_name 01Gorilla
 ```
 
-You have to download the [ckpts](https://drive.google.com/drive/folders/1gl_h0r0ljb8QWDzpobPe39OBqp6SXfdr?usp=drive_link) and [retrieval model](https://drive.google.com/drive/folders/1ZBhj7CNb93Dhm6WBZO61iNDkhJppXlgc?usp=drive_link) and put them in corresponding file location.
-
-```
-ckpts
- └ LEGO-3D
-retrieval
- └ model
-```
-
 All other parameters such as *batch size*, *class_name*, *dataset_type* you can adjust in corresponding config [files](https://github.com/EricLee0224/PAD/tree/main/configs/LEGO-3D).
 
 All NeRF models were trained using this code https://github.com/yenchenlin/nerf-pytorch/.
 
 And iNeRF using the code https://github.com/salykovaa/inerf
 
-### 4.2 Test
+### 4.3 Test
 
 The test script requires the --obj arguments
 

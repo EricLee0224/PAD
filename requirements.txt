@@ -18,3 +18,4 @@ yacs
 easydict
 importlib
 efficientnet_pytorch
+gdown
