@@ -220,7 +220,7 @@ The OmniposeAD consists of an anomaly-free neural radiance field, coarse-to-fine
 
 
 <p align="center">
-  <img src="assets/PAAD.png" width="85%" />
+  <img src="assets/pad_pipeline_final.png" width="85%" />
 </p>
 
 ### 4.1 Installation
