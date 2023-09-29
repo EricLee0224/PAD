@@ -141,7 +141,7 @@ The selection criteria for benchmark methods include representativeness, superio
 
 **Pseudo-anomaly methods:** <br>
 - [[**Cutpaste**]](https://github.com/LilitYolyan/CutPaste)    
-  [[**DRAEM**]](https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models/draem)    
+- [[**DRAEM**]](https://github.com/openvinotoolkit/anomalib/tree/main/src/anomalib/models/draem)    
 
 ### 3.2 Objects Attributes Quantification
 Additionally, we explore a novel aspect in anomaly detection tasks, which is the **relationship between object attributes and anomaly detection performance**. This investigation leads to unexpected insights and alternative ways to evaluate different approaches. Specifically, we measure the complexity of object shapes and the contrast of object colors, and then analyze the correlation between these properties and detection performance using various methods. The findings reveal that most methods exhibit a positive correlation between performance and color contrast, while a negative correlation is observed with shape complexity, which aligns with our intuition. Notably, Cutpaste, a representative approach that generates anomalies and reconstructs them through a self-supervised task, stands out as being sensitive to color contrast but surprisingly tolerant towards shape complexity. Furthermore, the results demonstrate the robustness of our proposed PAAD to changes in object attributes.  
