@@ -125,6 +125,8 @@ MAD-Sim
 While the content of the **MAD-Sim dataset is sufficient to explore object anomaly detection and localization tasks under the pose-agnostic setting**, we would like to further assist in verifying whether the models trained using the MAD-Sim dataset are generalizable in the real world by releasing additional MAD-Real datasets.   
 Since the Real dataset contains entity information, we decided to open a challenge and welcome submissions of models trained using the MAD-Sim dataset for validation once the paper is accepted. Note that regardless of the results, we will fully release this part of the dataset by October 2023.  
 
+**MAD-Real Dataset**: [Stay Tuned]
+
 ---
 ## 3. Pose-agnostic Anomaly Detection and Localization Benchmark on MAD
 ### 3.1 Overview of benchmarking methods   
