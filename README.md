@@ -321,5 +321,5 @@ If you have any problem with our work, please feel free to contact the contribut
       author       = {Zhou, Qiang and Li, Weize and Jiang, Lihan and Wang, Guoliang and Zhou, Guyue and Zhang, Shanghang and Zhao, Hao},
       title        = {PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection},
       journal      = {arXiv preprint arXiv:2310.07716},
-      year         = {2023},
+      year         = {2023}
  
