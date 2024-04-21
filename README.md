@@ -1,6 +1,4 @@
 # [NeurlPS 2023] PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection
-<span style="color:red">Due to background/lighting noise in real data and copyright issues, we strongly recommend using MAD-Sim exclusively to explore the PAD problem.</span>
-
 This repository provides the official PyTorch implementation code, data and models of the following paper:  
 **PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection**<br>
 [[arXiv]](https://arxiv.org/abs/2310.07716) 丨 [Code]
@@ -97,7 +95,7 @@ To generate the necessary data, we utilized Blender software and imported the re
 
 For camera placement, the author used a circular surface centered on the vertex of the Z-axis as a reference. They positioned a camera every 15 degrees along this circular surface and added cameras at equal intervals along the Z-axis. This setup enabled multiple cameras to render simultaneously, resulting in a richer and more comprehensive dataset with multi-angle model data.
 
-**MAD-Sim Dataset with 20 classes (970MB)**: [Google Drive](https://drive.google.com/file/d/1XlW5v_PCXMH49RSKICkskKjd2A5YDMQq/view?usp=sharing).
+**MAD-Sim Dataset with 20 classes (970MB)**: [Google Drive](https://drive.google.com/file/d/1XlW5v_PCXMH49RSKICkskKjd2A5YDMQq/view?usp=sharing). Due to background/lighting noise in real data and copyright issues, we strongly recommend using MAD-Sim exclusively to explore the PAD problem.
 #### Data Directory
 ```
 MAD-Sim
@@ -128,7 +126,7 @@ MAD-Sim
 While the content of the **MAD-Sim dataset is sufficient to explore object anomaly detection and localization tasks under the pose-agnostic setting**, we would like to further assist in verifying whether the models trained using the MAD-Sim dataset are generalizable in the real world by releasing additional MAD-Real datasets.   
 Since the Real dataset contains entity information, we decided to open a challenge and welcome submissions of models trained using the MAD-Sim dataset for validation once the paper is accepted. Note that regardless of the results, we will fully release this part of the dataset by December 2023.  
 
-**MAD-Real Dataset with 10 classes(2.19GB)**: [Google Drive](https://drive.google.com/file/d/146sKbkUUFW7xJTG2LGm_OgXjMX3fDNxN/view?usp=sharing)
+**MAD-Real Dataset with 10 classes(2.19GB)**: [Google Drive](https://drive.google.com/file/d/146sKbkUUFW7xJTG2LGm_OgXjMX3fDNxN/view?usp=sharing) Due to background/lighting noise in real data and copyright issues, we strongly recommend using MAD-Sim exclusively to explore the PAD problem.
 
 ---
 ## 3. Pose-agnostic Anomaly Detection and Localization Benchmark on MAD
