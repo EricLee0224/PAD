@@ -1,5 +1,6 @@
 # [NeurlPS 2023] PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection
 <span style="color:red">Due to background/lighting noise in real data and copyright issues, we strongly recommend using MAD-Sim exclusively to explore the PAD problem.</span>
+
 This repository provides the official PyTorch implementation code, data and models of the following paper:  
 **PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection**<br>
 [[arXiv]](https://arxiv.org/abs/2310.07716) 丨 [Code]
