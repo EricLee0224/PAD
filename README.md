@@ -1,4 +1,4 @@
-# [NeurlPS 2023] PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection
+# [NeurlPS 2023] PAD: A Dataset and Benchmark for Multi-view (aka.Pose-agnostic) Anomaly Detection
 This repository provides the official PyTorch implementation code, data and models of the following paper:  
 **PAD: A Dataset and Benchmark for Pose-agnostic Anomaly Detection**<br>
 [[arXiv]](https://arxiv.org/abs/2310.07716) 丨 [Code]
