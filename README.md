@@ -21,9 +21,7 @@ The main contributions are summarized as follows:
 - We proposed ***OmniposeAD***, utilizing NeRF to encode anomaly-free object attributes from diverse viewpoints/poses and comparing reconstructed normal reference with query image for pose-agnostic anomaly detection and localization. It outperforms previous methods quantitatively and qualitatively on the MAD benchmark, which indicates the promising potential on PAD setting.    
 ---
 ## 1. Pose-agnostic Anomaly Detection Setting
-The progress of object anomaly detection in industrial vision is significantly impeded by the scarcity of datasets containing high-quality annotated anomaly samples and comprehensive view information about normal objects. Our Pose-agnostic Anomaly Detection (PAD) setting introduced for object anomaly detection and localization tasks shown as below and it can be formally stated as follows:   
-
-Given a training set $\mathcal{T}=\{t_{i}\}_{i=1}^{N}$, in which $\{t_1, t_2, \cdots, t_N\}$ are the anomaly-free samples from object's multi-pose view and each sample $t$ consists of an RGB image $I_{\text{rgb}}$ with pose information $\theta_{\text{pose}}$. In addition, $\mathcal{T}$ belongs to a certain object $o_{j}$, $o_{j}\in\mathcal{O}$, where $\mathcal{O}$ denotes the set of all object categories. During testing, given a query (normal or abnormal) image $\mathcal{Q}$ from object $o_{j}$ without pose information $\theta_{\text{pose}}$, the pre-trained AD model $M$ should discriminate whether or not the query image $\mathcal{Q}$ is anomalous and localize the pixel-wise anomaly region if the anomaly is detected.
+The progress of object anomaly detection in industrial vision is significantly impeded by the scarcity of datasets containing high-quality annotated anomaly samples and comprehensive view information about normal objects. Our Pose-agnostic Anomaly Detection (PAD) setting introduced for object anomaly detection and localization tasks.
 
 <p align="center">
   <img src="assets/PAD_teaser.png" width = "70%" />
